@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg';
+import './App.css';
+import react,{useState} from 'react';
+function App() {
+ 
+   const [nombre, setNombre] = useState('')
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const llamaFabian = () =>{
+    setNombre("Fabian")
+  }
+  const llamaTesi = () =>{
+    setNombre("TESI")
+  }
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h2>{nombre}</h2>
+        <button onClick={llamaTesi}>TESI</button>
+        <button onClick={llamaFabian}>Fabian</button>
+      </header>
+    </div>
+  );
 }
 
-export default App;
+export default App;
