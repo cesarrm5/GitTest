@@ -6,18 +6,18 @@ function App() {
    const [nombre, setNombre] = useState('')
 
   const llamaFabian = () =>{
-    setNombre("Ixtapaluca")
+    setNombre("Soy")
   }
   const llamaTesi = () =>{
-    setNombre("Tecnologico")
+    setNombre("Clone")
   }
 
   return (
     <div className="App">
       <header className="App-header">
         <h2>{nombre}</h2>
-        <button onClick={llamaTesi}>Tecnologico</button>
-        <button onClick={llamaFabian}>Ixtapaluca</button>
+        <button onClick={llamaTesi}>Soy</button>
+        <button onClick={llamaFabian}>Clone</button>
       </header>
     </div>
   );
