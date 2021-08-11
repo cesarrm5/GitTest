@@ -6,7 +6,7 @@ function App() {
    const [nombre, setNombre] = useState('')
 
   const llamaxocua = () =>{
-    setNombre("Soy xocua")
+    setNombre("Soy xocua1")
   }
 
   return (
