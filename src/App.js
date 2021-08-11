@@ -5,15 +5,15 @@ function App() {
  
    const [nombre, setNombre] = useState('')
 
-  const llamaFabian = () =>{
-    setNombre("Soy un Clone")
+  const llamaxocua = () =>{
+    setNombre("Soy xocua")
   }
 
   return (
     <div className="App">
       <header className="App-header">
         <h2>{nombre}</h2>
-        <button onClick={llamaFabian}>Soy</button>
+        <button onClick={llamaxocua}>Soy</button>
       </header>
     </div>
   );
