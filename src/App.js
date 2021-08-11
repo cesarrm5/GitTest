@@ -7,7 +7,7 @@ function App() {
 
 <<<<<<< HEAD
   const llamaYoshua = () =>{
-    setNombre("Soy Yoshua")
+    setNombre("Soy Yoshua yair")
 =======
   const llamaJuanC = () =>{
     setNombre("Juan Carlos")
